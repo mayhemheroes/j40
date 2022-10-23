@@ -1,9 +1,9 @@
 project: j40
-target: j40_fuzz
+target: j40-fuzz
 
 testsuite:
   - file://fuzz/1.jxl
 
 cmds:
-    - cmd: ./j40_fuzz
+    - cmd: ./j40-fuzz
       libfuzzer: true
