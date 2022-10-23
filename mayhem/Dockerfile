@@ -9,4 +9,4 @@ WORKDIR /j40/fuzz
 RUN make
 
 FROM debian:bookworm
-COPY --from=builder /j40/fuzz/j40-fuzzer /
+COPY --from=builder /j40/fuzz/j40_fuzz /
